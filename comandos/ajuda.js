@@ -17,7 +17,8 @@ module.exports.run = async(client, message, args) =>{
           {
             name: "Moderação",
             value: 
-`**gr!ban** = Irá banir o membro mencionado (Necessita da menção do usuário e motivo) 
+`
+**gr!ban** = Irá banir o membro mencionado (Necessita da menção do usuário e motivo) 
 **gr!unban** = Irá desbanir o membro já banido (Precisa da menção e motivo)
 **gr!mute** = Irá mutar o membro mencionado (Precisa da menção e motivo)
 **gr!unmute** = Irá desmutar o membro já mutado (o membro precisa estar mutado para poder desmutar)
@@ -29,7 +30,8 @@ module.exports.run = async(client, message, args) =>{
           {
             name: "Informação & Diversão",
             value: 
-`**gr!ping** = Caso queira ver o ping do bot
+`
+**gr!ping** = Caso queira ver o ping do bot
 **gr!say** = O bot irá dizer a seguinte frase
 **gr!fotografia** = Irá mandar fotos aleatórias de: Artes, lugares e etc...
 **gr!puppy** = Cachorrinhos!! (Manutenção)
