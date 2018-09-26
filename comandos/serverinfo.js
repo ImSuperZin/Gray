@@ -13,15 +13,15 @@ module.exports.run = async (bot, message, args) => {
    .setColor("#ffffff")
    .setTimestamp()
    .setThumbnail(sicon)
-   .addField("ID:", message.guild.id, true)
-   .addField("Nome:", message.guild.name, true)
-   .addField("Dono:", message.guild.owner.user.tag, true)
-   .addField("Região:", message.guild.region, true)
-   .addField("Channels", message.guild.channels.size, true)
-   .addField("Membros:", message.guild.memberCount, true)
-   .addField("Bots:", message.guild.members.filter(m => m.user.bot).size, true)
-   .addField("Onlines:", online.size, true)
-   .addField("Tags:", message.guild.roles.size, true);
+   .addField(":cupid: ID:", message.guild.id, true)
+   .addField(":name_badge: Nome:", message.guild.name, true)
+   .addField(":crown: Dono:", message.guild.owner.user.tag, true)
+   .addField(":flag_br: Região:", message.guild.region, true)
+   .addField("💬 Channels", message.guild.channels.size, true)
+   .addField("👤 Membros:", message.guild.memberCount, true)
+   .addField(":radioactive:Bots", message.guild.members.filter(m => m.user.bot).size, true)
+   .addField(":green_heart: Onlines:", online.size, true)
+   .addField(":octagonal_sign: Tags:", message.guild.roles.size, true);
    message.channel.send(serverembed);
 
 }
