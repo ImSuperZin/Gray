@@ -27,7 +27,7 @@ client.on('message', message => {
 client.on('message', message => {
     if(message.content == '<@493902440685502464>'){
       var embed = new Discord.RichEmbed()
-      .setDescription(`**${message.author}**, meu prefix \`g.\`.`)
+      .setDescription(`**${message.author}**, meu prefix \`gr!\`.`)
       message.channel.send(embed)
     }
   });
