@@ -15,7 +15,5 @@ exports.run = (client, message, args) => {
     .addField(`:desktop: Guilds`, `**${client.guilds.size}**`, true)
     .addField(":pencil: Canais", `**${client.channels.size}**`, true)
     .addField(":busts_in_silhouette: Usuários", `**${client.users.size}**`, true)
-    .addField(":coffee: Criador:", `<@272419543601643520>`, false)
-    .addField(":baby: Criado em:", `**23/09/2018** Ás **21:34**`, false)
     message.channel.send(botinfo)
 }
