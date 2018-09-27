@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
     .setTitle(':wave: Gray - Info')
     .setTimestamp()
     .setThumbnail(message.author.displayAvatarURl)
-    .setFooter(':question: Meu Grupo Para Suporte (aqui) [https://discord.gg/Gq9ZJds]')
+    .setFooter('Meu Grupo Para Suporte [Aqui] (https://discord.gg/Gq9ZJds)')
     .setDescription(`Olá, sou o Gray, sou um :boy::skin-tone-1: menino, sou um simples bot de moderação do discord.
     \n:incoming_envelope: Me invite para seu servidor, utilize **gr!invite**.`)
 
