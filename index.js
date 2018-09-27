@@ -20,7 +20,7 @@ client.on("ready", () => {
 client.on('message', message => {
     if(message.content == 'gr!invite'){
       var embed = new Discord.RichEmbed()
-      .setDescription(`**${message.author}**, invite para me convidar: \n (Clique Aqui)[https://discordapp.com/oauth2/authorize?client_id=493790726799491082&scope=bot&permissions=2146958847].`)
+      .setDescription(`**${message.author}**, invite para me convidar: \n [Clique Aqui](https://discordapp.com/oauth2/authorize?client_id=493790726799491082&scope=bot&permissions=2146958847).`)
       message.channel.send(embed)
     }
   });
