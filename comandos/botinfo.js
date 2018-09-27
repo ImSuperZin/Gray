@@ -17,6 +17,6 @@ exports.run = (client, message, args) => {
     .addField(":busts_in_silhouette: Usuários", `**${client.users.size}**`, true)
     .addField(":coffee: Criador", `<@272419543601643520>`, true)
     .addField(":robot: Fui Criado Em", `**23/09/2018** às **21:00**`, true)
-    .addField(":question: Grupo de Suporte", `[Aqui](https://discord.gg/Gq9ZJds)`, true)
+    .addField(":question: Grupo de Suporte", `[Clique Aqui](https://discord.gg/eFmYts5)`, true)
     message.channel.send(botinfo)
 }
