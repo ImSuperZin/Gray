@@ -1,7 +1,7 @@
 exports.run = (client, message, args) => {
   let texto = args.slice(0).join(' ')
 
-  if (texto.length > 10) return message.channel.send('Escreva somente 10 letras.')
+  if (texto.length > 15) return message.channel.send('Escreva somente 15 caracteres.')
   message.channel.send({
     'embed': {
       'title': ` `,
