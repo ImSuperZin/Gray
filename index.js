@@ -42,6 +42,12 @@ client.on('message', message => {
 
 });
 
+if(/(?:https?:\/)?discord(?:app.com\/invite|.gg)/gi.test(msg.content)){
+  msg.delete();
+  msg.channel.send(':name_badge: Você não pode enviar outros servidores aqui <@' + msg.author.id + "> !");
+  return;
+};
+
 client.on('message', message => {
 
     var autor = message.author;
